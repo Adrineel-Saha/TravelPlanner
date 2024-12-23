@@ -1,0 +1,71 @@
+Create new travel request
+{
+  "raisedByEmployeeId": 104,
+  "toBeApprovedByHRId": 202,
+  "requestRaisedOn": "2024-12-10",
+  "fromDate": "2024-12-15",
+  "toDate": "2024-12-30",
+  "purposeOfTravel": "Conference",
+  "locationId": 4,
+  "requestStatus": "New",
+  "requestApprovedOn": null,
+  "priority": "Priority 2"
+}
+
+Approve a travel request
+{
+  "requestId": 6,
+  "requestStatus": "Approved",
+  "requestApprovedOn": "2024-12-13",
+  "approvedModeOfTravel": "Air",
+  "approvedHotelStarRating": "7-Star"
+}
+
+Reject a travel request
+{
+  "requestId": 7,
+  "requestStatus": "Rejected"
+}
+
+
+Calculate Budget Approved Request
+{
+  "requestId": 4,
+  "raisedByEmployeeId": 104,
+  "toBeApprovedByHRId": 204,
+  "requestRaisedOn": "2024-12-10",
+  "fromDate": "2024-02-01",
+  "toDate": "2024-02-05",
+  "purposeOfTravel": "Project",
+  "locationId": 4,
+  "requestStatus": "Approved",
+  "requestApprovedOn": "2025-01-25",
+  "priority": "Priority 1"
+}
+
+Calculate Budget Rejected Request
+{
+  "requestId": 3,
+  "raisedByEmployeeId": 103,
+  "toBeApprovedByHRId": 203,
+  "requestRaisedOn": "2024-12-12",
+  "fromDate": "2024-01-25",
+  "toDate": "2024-01-30",
+  "purposeOfTravel": "Training",
+  "locationId": 3,
+  "requestStatus": "Rejected",
+  "requestApprovedOn": null,
+  "priority": "Priority 3"
+}
+
+Authenticate Employee
+{
+  "employeeName": "Adrineel",
+  "password": "Adri@2001"
+}
+
+Authenticate Employee Forbidden
+{
+  "employeeName": "Akash",
+  "password": "Akash@2000"
+}
